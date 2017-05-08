@@ -13,7 +13,7 @@ const int Max = 80;
 
 //booleans to detected changes
 boolean newValue = false;
-boolean lastValue = digitalRead(12);
+boolean lastValue = digitalRead(pin);
 
 //variables used for building the final number
 String number;
